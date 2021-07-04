@@ -15,7 +15,7 @@ function App() {
     fetch("https://recipe-app-back-end-ak.herokuapp.com/recipes", {
       method: "GET",
       header:{
-        "User-Agent":"http://localhost:3000"
+        "User-Agent":"https://recipe-app-front-end.netlify.app/"
       }
     })
       .then((res) => res.json())
